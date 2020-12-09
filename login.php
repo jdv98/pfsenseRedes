@@ -8,6 +8,7 @@
 	<body>
 		
 		<div style="text-align: center;">
+		<h1 id="logSign">Log in</h1>
 		<form method="post" action="$PORTAL_ACTION$" id="loginForm" style="display: block">
 			<div><input name="auth_user" type="text" placeholder="Username" ></div>
 			<div><input name="auth_pass" type="password" placeholder="Password" ></div>
@@ -54,9 +55,6 @@
 				}
 			}
 
-			$('#exampleModal1').on('shown.bs.modal', function () {
-				$('#myInput1').trigger('focus')
-			})
 		</script>
 	</body>
 
