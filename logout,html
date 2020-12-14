@@ -1,7 +1,7 @@
 <html>
 	<head><title>Cerrar sesion</title></head>
 	<body>
-		<form method="POST" action="<?=$logouturl;?>">
+		<form method="POST" action="<?=$logouturl;?>" >
 			<input name="logout_id" type="hidden" value="<?=$sessionid;?>" />
 			<input name="zone" type="hidden" value="<?=$cpzone;?>" />
 			<input name="logout" type="submit" value="Logout" />
